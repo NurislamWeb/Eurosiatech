@@ -1,0 +1,1373 @@
+/*
+********************************************************
+    extra small devices css start
+********************************************************
+*/
+@media (min-width: 320px) and (max-width: 575px) {
+/*************** header part start ********************/
+    .fixed{
+        top: 0;
+    }
+    
+    #header-top{
+        display: none
+    }
+    
+    #header-part{
+        padding-top: 0;
+    }
+    
+    #header-part .fa{
+        padding: 10px;
+        background: #232150;
+        color: #fff;
+    }
+     
+    #header-part ul{
+        text-align: center;
+    } 
+    
+    #header-part ul li a::after{
+        display: none;
+    }
+    
+    
+/*************** header part end ********************/
+    
+    
+    
+/*************** banner part start ********************/
+    #banner-part .banner .overlay .text-box h2{
+        font-size: 50px;
+    }
+    
+    #banner-part .banner .overlay .text-box h4{
+        font-size: 18px;
+    }
+    
+    #banner-part .banner .overlay .text-box p{
+        width: auto;
+    }
+    
+    .banner-slider .prev{
+        display: none !important;
+    }
+    
+    .banner-slider .next{
+        display: none !important;
+    }
+    
+    #banner-part .banner .overlay{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+/*************** banner part end ********************/
+    
+    
+    
+    
+    
+/*************** services part start ********************/
+    #services-part .section-title h3{
+        font-size: 30px;
+    }
+    
+    #services-part .services h3{
+        font-size: 27px;
+    }
+/*************** services part end ********************/
+    
+    
+    
+/*************** process part start********************/
+    #work-system-part .process{
+        flex-direction: column;
+    }
+    
+    #work-system-part .process .pro{
+        width: 100%;
+        margin-bottom: 45px;
+    }
+/*************** process part end ********************/
+    
+    
+    
+    
+/*************** work part start ********************/
+    #work-part .section-title p{
+        width: auto;
+    }
+    
+    
+    #work-part .tab-box .nav{
+        direction: flex;
+        flex-direction: column;
+    }
+    
+    #work-part .tab-box .nav-pills .nav-link{
+        margin-left: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }  
+/*************** work part end ********************/
+    
+    
+    
+    
+/*************** clients part start ********************/
+    #clients-part ul{
+        position: absolute;
+        bottom: -40px;;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #clients-part ul li{
+        display: inline-block;
+    }
+    
+    #clients-part ul li button{
+        font-size: 0;
+        width: 18px;
+        height: 18px;
+        background: transparent;
+        position: relative;
+        border-radius: 50%;
+        border: 1px solid #232150;
+        margin-left: 2px;
+    }
+    
+    #clients-part ul .slick-active button{
+    background: #232150;
+}
+    
+    .counter-up{
+        flex-direction: column;
+    }
+    
+/*************** clients part end ********************/
+    
+    
+/*************** concern part start ********************/
+    #concern-part .title{
+        text-align: center;
+    }
+/*************** concern part end ********************/
+    
+    
+/*************** footer bottom part start ********************/
+    #bottom-part .social{
+        text-align: left;
+    }
+/*************** footer bottom part end ********************/
+    
+    
+    
+/*************** back to top  part start ********************/
+    .btop{
+        display: none;
+    }
+/*************** back to top  part end ********************/
+}
+/*
+********************************************************
+    extra small devices css end
+********************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+********************************************************
+    small devices css start
+********************************************************
+*/
+@media (min-width: 576px) and (max-width: 767px) {
+/*************** header part start ********************/
+    .fixed{
+        top: 0;
+    }
+    
+    #header-top{
+        display: none
+    }
+    
+    #header-part{
+        padding-top: 0;
+    }
+    
+    #header-part .fa{
+        padding: 10px;
+        background: #232150;
+        color: #fff;
+    }
+     
+    #header-part ul{
+        text-align: center;
+    } 
+    
+    #header-part ul li a::after{
+        display: none;
+    }
+/*************** header part end ********************/
+    
+    
+    
+/*************** banner part start ********************/
+    #banner-part .banner .overlay .text-box h2{
+        font-size: 50px;
+    }
+    
+    #banner-part .banner .overlay .text-box h4{
+        font-size: 18px;
+    }
+    
+    #banner-part .banner .overlay .text-box p{
+        width: auto;
+    }
+    
+    .banner-slider .prev{
+        display: none !important;
+    }
+    
+    .banner-slider .next{
+        display: none !important;
+    }
+    
+    #banner-part .banner .overlay{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+/*************** banner part end ********************/
+    
+    
+    
+    
+    
+/*************** services part start ********************/
+    #services-part .section-title h3{
+        font-size: 30px;
+    }
+    
+    #services-part .services h3{
+        font-size: 27px;
+    }
+/*************** services part end ********************/
+    
+    
+    
+/*************** process part start********************/
+    #work-system-part .process{
+        flex-direction: column;
+    }
+    
+    #work-system-part .process .pro{
+        width: 100%;
+        margin-bottom: 45px;
+    }
+/*************** process part end ********************/
+    
+    
+    
+    
+/*************** work part start ********************/
+    #work-part .section-title p{
+        width: auto;
+    }
+    
+    #work-part .tab-box{
+        flex-direction: column;
+    }
+    
+    #work-part .tab-box .nav{
+        direction: flex;
+        flex-direction: column;
+    }
+    
+    #work-part .tab-box .nav-pills .nav-link{
+        margin-left: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }  
+/*************** work part end ********************/
+    
+    
+    
+    
+/*************** clients part start ********************/
+    #clients-part ul{
+        position: absolute;
+        bottom: -40px;;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .clients-slider .next{
+        right: -30px;
+    }
+    
+    .clients-slider .prev{
+        left: -30px;
+    }
+    
+    #clients-part ul li{
+        display: inline-block;
+    }
+    
+    #clients-part ul li button{
+        font-size: 0;
+        width: 18px;
+        height: 18px;
+        background: transparent;
+        position: relative;
+        border-radius: 50%;
+        border: 1px solid #232150;
+        margin-left: 2px;
+    }
+    
+    #clients-part ul .slick-active button{
+    background: #232150;
+}
+    
+    .counter-up{
+        flex-direction: column;
+    }
+    
+/*************** clients part end ********************/
+    
+    
+/*************** concern part start ********************/
+    #concern-part .title{
+        text-align: center;
+    }
+/*************** concern part end ********************/
+    
+    
+/*************** footer bottom part start ********************/
+    #bottom-part .social{
+        text-align: left;
+    }
+/*************** footer bottom part end ********************/
+   
+}
+/*
+********************************************************
+     small devices css end
+********************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+********************************************************
+    medium devices css start
+********************************************************
+*/
+@media (min-width: 768px) and (max-width: 991px) {
+/*************** header part start ********************/
+    .fixed{
+        top: 0;
+    }
+    
+    #header-top{
+        display: none
+    }
+    
+    #header-part{
+        padding-top: 0;
+    }
+    
+    #header-part .fa{
+        padding: 10px;
+        background: #232150;
+        color: #fff;
+    }
+     
+    #header-part ul{
+        text-align: center;
+    } 
+    
+/*************** header part end ********************/
+    
+    
+    
+/*************** banner part start ********************/
+    #banner-part .banner .overlay .text-box h2{
+        font-size: 50px;
+    }
+    
+    #banner-part .banner .overlay .text-box h4{
+        font-size: 18px;
+    }
+    
+    #banner-part .banner .overlay{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+/*************** banner part end ********************/
+    
+    
+    
+    
+    
+/*************** services part start ********************/
+    #services-part .section-title h3{
+        font-size: 30px;
+    }
+    
+    #services-part .services h3{
+        font-size: 27px;
+    }
+/*************** services part end ********************/
+    
+    
+    
+/*************** process part start********************/
+    #work-system-part .process{
+        justify-content: space-between;
+    }
+    
+    #work-system-part .process .pro{
+        width: 32%;
+    }
+    
+    #work-system-part .video{
+        margin-top: 30px;
+    }
+/*************** process part end ********************/
+    
+    
+    
+    
+/*************** work part start ********************/
+    #work-part .tab-box .nav-pills .nav-link{
+        margin-left: 10px;
+        text-align: center;
+    }  
+/*************** work part end ********************/
+    
+    
+    
+    
+/*************** clients part start ********************/
+    #clients-part ul{
+        position: absolute;
+        bottom: -40px;;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .clients-slider .next{
+        right: -35px;
+    }
+    
+    .clients-slider .prev{
+        left: -35px;
+    }
+    
+    #clients-part ul li{
+        display: inline-block;
+    }
+    
+    #clients-part ul li button{
+        font-size: 0;
+        width: 18px;
+        height: 18px;
+        background: transparent;
+        position: relative;
+        border-radius: 50%;
+        border: 1px solid #232150;
+        margin-left: 2px;
+    }
+    
+    #clients-part ul .slick-active button{
+    background: #232150;
+}
+    
+    #clients-part .count-2{
+        display: none;
+    }
+    
+    #clients-part .counter-up{
+        margin-top: 30px;
+    }
+    
+/*************** clients part end ********************/
+    
+    
+    
+    
+/*************** case study part start ********************/
+    #case-part .case .text-box h5 a{
+        font-size: 20px;
+    }
+/*************** case study part end ********************/
+    
+    
+    
+/*************** concern part start ********************/
+    #concern-part .title{
+        text-align: center;
+    }
+/*************** concern part end ********************/
+    
+    
+}
+/*
+********************************************************
+     medium devices css end
+********************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+********************************************************
+    large devices css start
+********************************************************
+*/
+@media (min-width: 992px) and (max-width: 1199px) {
+/*************** header part start ********************/
+    .fixed{
+        top: 50px;
+    }
+    
+    
+    #header-part{
+        padding-top: 50px;
+    }
+    
+    #header-top .contact ul .add{
+        display: none;
+    }
+    
+    #header-part .fa{
+        padding: 10px;
+        background: #232150;
+        color: #fff;
+    }
+     
+    #header-part ul{
+        text-align: center;
+    } 
+    
+/*************** header part end ********************/
+    
+    
+    
+/*************** banner part start ********************/
+    #banner-part .banner .overlay .text-box h2{
+        font-size: 50px;
+    }
+    
+    #banner-part .banner .overlay .text-box h4{
+        font-size: 18px;
+    }
+    
+    #banner-part .banner .overlay{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+/*************** banner part end ********************/
+    
+    
+    
+    
+    
+/*************** services part start ********************/
+    #services-part .section-title h3{
+        font-size: 30px;
+    }
+    
+    #services-part .services h3{
+        font-size: 27px;
+    }
+/*************** services part end ********************/
+    
+    
+    
+/*************** process part start********************/
+    #work-system-part .process{
+        justify-content: space-between;
+    }
+    
+    #work-system-part .process .pro{
+        width: 32%;
+    }
+
+/*************** process part end ********************/
+    
+    
+    
+    
+/*************** work part start ********************/
+    #work-part .tab-box .nav-pills .nav-link{
+        margin-left: 10px;
+        text-align: center;
+    }  
+/*************** work part end ********************/
+    
+    
+    
+    
+/*************** clients part start ********************/
+    #clients-part ul{
+        position: absolute;
+        bottom: -40px;;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .clients-slider .next{
+        right: -35px;
+    }
+    
+    .clients-slider .prev{
+        left: -35px;
+    }
+    
+    #clients-part ul li{
+        display: inline-block;
+    }
+    
+    #clients-part ul li button{
+        font-size: 0;
+        width: 18px;
+        height: 18px;
+        background: transparent;
+        position: relative;
+        border-radius: 50%;
+        border: 1px solid #232150;
+        margin-left: 2px;
+    }
+    
+    #clients-part ul .slick-active button{
+    background: #232150;
+}
+    
+    #clients-part .count-2{
+        display: none;
+    }
+    
+    #clients-part .counter-up{
+        margin-top: 30px;
+    }
+    
+/*************** clients part end ********************/
+    
+    
+    
+    
+/*************** case study part start ********************/
+    #case-part .case .text-box h5 a{
+        font-size: 20px;
+    }
+/*************** case study part end ********************/
+    
+    
+    
+/*************** concern part start ********************/
+    #concern-part .title{
+        text-align: center;
+    }
+/*************** concern part end ********************/
+    
+    
+    
+/*************** footer part start ********************/
+    #footer-part .s-2{
+        margin-left: 30px;
+    }
+/*************** footer part end ********************/
+    
+    
+}
+/*
+********************************************************
+     large  devices css end
+**********************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+********************************************************
+     about page css start
+**********************************************************
+*/
+/****************** Extra small device start ********************/
+
+@media (min-width: 320px) and (max-width: 575px){
+    #history .box{
+        display: none;
+    }
+    
+    #history .img{
+        position: static;
+    }
+    
+    #vision-part .box{
+        display: none;
+    }
+    
+    #vision-part .box{
+        display: none;
+    }
+    
+    #vision-part .img{
+        position: static;
+        padding-bottom: 30px;
+    }
+    
+    #board-part .board .img img{
+        height: 100px;
+    }
+    
+    #board-part .board .text h2{
+        font-size: 18px;
+    }
+    
+    #board-part .board .text h4{
+        font-size: 16px;
+    }
+    
+    #board-part .board .text p{
+        font-size: 15px;
+    }
+    
+    #companys .group{
+        flex-direction: column;
+    }
+    
+    #history .box-1{
+        padding: 24px 0;
+    }
+    
+    #history{
+        padding: 0;
+    }
+    
+    #history .box-2{
+        padding: 0;
+    }
+    
+    #companys .title{
+        text-align: center;
+        color: #444;
+    }
+    
+    #companys .title h2{
+        color: #444;
+    }
+    
+    #companys .title p{
+        color: #444;
+    }
+    
+}
+/****************** Extra small device end ********************/
+
+
+
+
+
+
+
+
+
+
+/******************  small device start ********************/
+
+@media (min-width: 576px) and (max-width: 767px){
+    #history .box{
+        display: none;
+    }
+    
+    #history .img{
+        position: static;
+    }
+    
+    #vision-part .box{
+        display: none;
+    }
+    
+    #vision-part .box{
+        display: none;
+    }
+    
+    #vision-part .img{
+        position: static;
+        padding-bottom: 30px;
+    }
+    
+    #board-part .board .img img{
+        height: 100px;
+    }
+    
+    #board-part .board .text h2{
+        font-size: 18px;
+    }
+    
+    #board-part .board .text h4{
+        font-size: 16px;
+    }
+    
+    #board-part .board .text p{
+        font-size: 15px;
+    }
+    
+    #companys .group{
+        flex-direction: column;
+    }
+    
+    #history .box-1{
+        padding: 24px 0;
+    }
+    
+    #history{
+        padding: 0;
+    }
+    
+    #history .box-2{
+        padding: 0;
+    }
+    
+    #companys .title{
+        text-align: center;
+        color: #444;
+    }
+    
+    #companys .title h2{
+        color: #444;
+    }
+    
+    #companys .title p{
+        color: #444;
+    }
+    
+}
+/******************  small device end ********************/
+
+
+
+
+
+
+
+/******************  medium device start ********************/
+
+@media (min-width: 768px) and (max-width: 991px){
+    #history .box{
+        display: none;
+    }
+    
+    #vision-part .box{
+        display: none;
+    }
+    
+    #board-part .board .text h2{
+        font-size: 18px;
+    }
+    
+    #board-part .board .text h4{
+        font-size: 16px;
+    }
+    
+    #board-part .board .text p{
+        font-size: 15px;
+    }
+    
+    #companys .group{
+        flex-direction: column;
+    }
+    
+    #history .box-1{
+        padding: 24px 0;
+    }
+    
+    
+    #history .box-2{
+        padding: 0;
+    }
+    
+    #companys .title{
+        text-align: center;
+        color: #444;
+    }
+    
+    #companys .title h2{
+        color: #444;
+    }
+    
+    #companys .title p{
+        color: #444;
+    }
+    
+    #board-part .messsage{
+        margin-bottom: 30px;
+    }
+      
+}
+/******************  medium device end ********************/
+
+
+
+
+
+
+
+
+/******************  large device start ********************/
+
+@media (min-width: 992px) and (max-width: 1199px){
+    #history{
+        padding: 86px 0;
+    }
+    
+    #history .box{
+        display: none;
+    }
+    
+    #vision-part .box{
+        display: none;
+    }
+    
+    #board-part .board .text h2{
+        font-size: 18px;
+    }
+    
+    #board-part .board .text h4{
+        font-size: 16px;
+    }
+    
+    #board-part .board .text p{
+        font-size: 15px;
+    }
+    
+    #history .box-1{
+        padding: 24px 0;
+    }
+    
+    
+    #history .box-2{
+        padding: 0;
+    }
+    
+    #companys .title{
+        text-align: center;
+        color: #444;
+    }
+    
+    #companys .title h2{
+        color: #444;
+    }
+    
+    #companys .title p{
+        color: #444;
+    }
+    
+    #board-part .messsage{
+        margin-bottom: 30px;
+    }
+    
+    #board-part .title{
+        text-align: center;
+    }
+    
+    #vision-part{
+        margin-top: 30px;
+    }
+      
+}
+/******************  large device end ********************/
+
+/*
+********************************************************
+     about page css end
+**********************************************************
+*/
+
+
+
+
+
+
+
+
+
+/*
+********************************************************
+     history page css start
+**********************************************************
+*/
+@media (min-width: 992px) and (max-width: 1199px){
+    #history .box-1{
+        padding: 88px 0;
+    }
+}
+/*
+********************************************************
+     history page css end
+**********************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+********************************************************
+     who we are  page css start
+**********************************************************
+*/
+@media (min-width: 992px) and (max-width: 1199px){
+    #history .box-2{
+        padding: 25px 0;
+    }
+}
+/*
+********************************************************
+     who we are  page css end
+**********************************************************
+*/
+
+
+
+
+
+
+/*
+********************************************************
+     vision & mission  page css start
+**********************************************************
+*/
+/*********** extra small device css start *****************/
+@media (min-width: 320px) and (max-width: 575px){
+    #vision-page .text-box{
+        padding-left: 0;
+        padding-top: 40px;
+    }
+}
+
+/*********** extra small device css end *****************/
+
+
+
+/*********** small device css start *****************/
+@media (min-width: 576px) and (max-width: 767px){
+    #vision-page .text-box{
+        padding-left: 0;
+        padding-top: 40px;
+    }
+}
+/*********** small device css end *****************/
+
+
+
+
+
+
+/*********** medium device css start *****************/
+@media (min-width: 768px) and (max-width: 991px){
+    #vision-page .text-box{
+        padding-left: 0;
+        padding-top: 40px;
+    }
+}
+/*********** medium device css end *****************/
+
+
+
+
+
+/*********** large device css start *****************/
+@media (min-width: 768px) and (max-width: 991px){
+    #vision-page .text-box{
+        padding-top: 40px;
+    }
+}
+/*********** large device css end *****************/
+/*
+********************************************************
+     vision & mission  page css end
+**********************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+********************************************************
+    our company  page css start
+**********************************************************
+*/
+
+/*********** extra small device css start *****************/
+@media (min-width: 320px) and (max-width: 575px){
+    #company-page .company{
+        flex-direction: column;
+    } 
+}
+
+/*********** extra small device css end *****************/
+
+
+/*********** extra small device css start *****************/
+@media (min-width: 576px) and (max-width: 767px){
+    #company-page .company{
+        flex-direction: column;
+    } 
+}
+
+/*********** extra small device css end *****************/
+/*
+********************************************************
+    our company  page css end
+**********************************************************
+*/
+
+
+
+
+
+
+/*
+********************************************************
+    graphics design  page css start
+**********************************************************
+*/
+@media (min-width: 576px) and (max-width: 767px){
+    #servics-graphics .items a{
+        padding: 8px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    #servics-graphics .items a{
+        padding: 10px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    #servics-graphics .items h2{
+        font-size: 27px;
+    }
+}
+
+/*
+********************************************************
+    graphics design  page css end
+**********************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+********************************************************
+    search engine marketing  page css start
+**********************************************************
+*/
+@media (min-width: 768px) and (max-width: 991px){
+    #servics-graphics .items a{
+        padding: 6px;
+        font-size: 13px;
+    }
+}
+/*
+********************************************************
+    search engine marketing  page css end
+**********************************************************
+*/
+
+
+
+
+
+
+/*
+********************************************************
+    pricing page css start
+**********************************************************
+*/
+@media (min-width: 768px) and (max-width: 991px){
+    #pricing .price h5{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    #pricing .price h5{
+        font-size: 17px;
+    }
+    
+    #pricing .price{
+        font-size: 14px;
+    }
+}
+/*
+********************************************************
+    pricing page css end
+**********************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+********************************************************
+    blog page css start
+**********************************************************
+*/
+@media (min-width: 320px) and (max-width: 575px){
+    #blog-page .blog .text-box .title .button{
+        flex-direction: column;
+    }
+    
+    #blog-page .blog .text-box .title .button .social span{
+        display: none;
+    }
+    
+    #blog-page .blog .text-box .title .button .social{
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    
+    #blog-page .blog .text-box .title a h2{
+        font-size: 20px;
+    }
+}
+
+/********** extra small device css end *********************/
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    #blog-page .blog .text-box .title .button{
+        flex-direction: column;
+    }
+    
+    #blog-page .blog .text-box .title .button .social span{
+        display: none;
+    }
+    
+    #blog-page .blog .text-box .title .button .social{
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    
+    #blog-page .blog .text-box .title a h2{
+        font-size: 20px;
+    }
+}
+/********** medium device css end *********************/
+
+/*
+********************************************************
+    blog page css end
+**********************************************************
+*/
+
+
+
+
+
+
+
+
+/*
+********************************************************
+    info page css start
+**********************************************************
+*/
+@media (min-width: 768px) and (max-width: 991px){
+    #info .items{
+        padding: 30px 170px;
+    }
+    
+    #info .it-2{
+        padding: 30px 265px;
+    }
+    
+    #info .map{
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    #info .it-2{
+        padding: 30px 70px;
+    }
+}
+/*
+********************************************************
+    info page css end
+**********************************************************
+*/
+

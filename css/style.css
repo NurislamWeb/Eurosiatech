@@ -1,0 +1,2736 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+ol,ul{
+  
+    list-style: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+/************* common css end **********************/
+
+.fixed{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background: #fff;
+    border-bottom: 1px solid  #232150;
+}
+
+#header-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+/*
+*******************************************************
+    header top part css  start
+*******************************************************
+*/
+#header-top{
+    background: #232150;
+    color: #fff;
+    padding-top: 10px;
+}
+
+#header-top .contact{
+    width: 100%;
+}
+
+#header-top .contact ul li{
+    display: inline-block;
+}
+
+#header-top .contact ul li i{
+    font-size: 18px;
+}
+
+#header-top .contact ul li span{
+    font-size: 16px;
+    font-weight: 40;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header-top .contact ul li a{
+    margin-left: 15px;
+    color: #fff;
+}
+
+#header-top .contact ul li a span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#header-top .social{
+    width: 100%;
+    text-align: right;
+    color: #fff;
+}
+
+#header-top .social a i{
+    color: #232150;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    text-align: center;
+    line-height: 20px;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-left: 5px;
+    transition: .4s;
+}
+
+#header-top .social a i:hover{
+    background: #EA2E2F;
+    color: #fff;
+}
+/*
+*******************************************************
+    header top part css  end
+*******************************************************
+*/
+
+
+
+
+
+
+
+/*
+*******************************************************
+    header part csss start
+*******************************************************
+*/
+#header-part{
+    padding-top: 50px;
+}
+
+#header-part nav ul li{
+    margin-left: 10px;
+}
+
+#header-part nav ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:  #232150;
+    transition: .4s;
+    position: relative;
+}
+
+#header-part nav ul li a::after{
+    position: absolute;
+    bottom: 0;
+    left: 9px;
+    width: 0;
+    height: 2px;
+    background: #232150;
+    content: "";
+    transition: .4s;
+}
+
+#header-part nav ul li a:hover:after{
+    background: #EA2E2F;
+    width: 50%;
+}
+
+
+#header-part nav ul li a:hover{
+    color: #EA2E2F;
+}
+
+#header-part nav ul li{
+    position: relative;
+}
+
+#header-part nav ul li .sub-menu{
+    opacity: 0;
+    background: #fff;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 200px;
+    z-index: 2;
+    padding: 10px 0;
+    padding-right: 10px;
+}
+
+#header-part nav ul li:hover .sub-menu{
+    opacity: 1;
+}
+
+
+
+/*
+*******************************************************
+    header part csss start
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+    banner part start
+*******************************************************
+*/
+#banner-part .banner{
+    width: 100%;
+    background: url(../images/slider-4%20images-01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#banner-part .b-2{
+    width: 100%;
+    background: url(../images/slider-4%20images-02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#banner-part .b-3{
+    width: 100%;
+    background: url(../images/slider-4%20images-03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#banner-part .b-4{
+    width: 100%;
+    background: url(../images/slider-4%20images-04.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#banner-part .banner .overlay{
+    width: 100%;
+    height: 100%;
+    padding-top: 200px;
+    padding-bottom: 280px;
+    position: relative;
+}
+
+#banner-part .banner .overlay .text-box h2{
+    font-size: 80px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+}
+
+#banner-part .banner .overlay .text-box h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#banner-part .banner .overlay .text-box p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    width: 400px;
+    margin-left: 0 auto;
+    padding: 30px 0;
+}
+
+#banner-part .banner .overlay .text-box .web{
+    padding-bottom: 60px;
+}
+
+#banner-part .banner .overlay .text-box a{
+    padding: 15px 20px;
+    background:  #fff;
+    color: #444;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+#banner-part .banner .overlay .text-box a:hover{
+    background: #EA2E2F;
+    color: #fff;
+}
+
+.banner-slider{
+    position: relative;
+}
+
+.banner-slider .prev{
+    width: 50px;
+    height: 50px;
+    background: #0872B9;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    z-index: 1;
+}
+
+
+.banner-slider .next{
+    width: 50px;
+    height: 50px;
+    background: #0872B9;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    z-index: 1;
+}
+
+#banner-part ul{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    margin-left: 5px;
+    transform: translateX(-50%);
+}
+
+#banner-part ul li{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#banner-part ul li button{
+    position: relative;
+    font-size: 0;
+    width: 18px;
+    height: 18px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+#banner-part ul .slick-active button{
+    background: #fff;
+}
+/*
+*******************************************************
+    banner part end
+*******************************************************
+*/
+
+
+
+
+
+
+/*
+*******************************************************
+    services part start
+*******************************************************
+*/
+#services-part{
+    padding: 60px 0;
+    background: #F2F5F9;
+}
+
+#services-part .section-title{
+    text-align: center; 
+}
+
+#services-part .section-title h3{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    color: #444;
+}
+
+#services-part .section-title h2{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+}
+
+#services-part .services{
+    width: 100%;
+    background: #fff;
+    margin-top: 30px;
+    text-align: center;
+    padding: 50px 20px;
+    position: relative;
+    transition: .4s;
+}
+
+#services-part .services:hover{
+   -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+#services-part .services::after{
+    position: absolute;
+    top: 0;
+    left: 33px;;
+    height: 5px;
+    width: 80%;
+    background: #232150;
+    content: "";
+}
+
+#services-part .services::before{
+    position: absolute;
+    bottom: 0;
+    left: 33px;;
+    height: 5px;
+    width: 80%;
+    background: #232150;
+    content: "";
+}
+
+#services-part .services h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #444;
+    padding: 20px 0;
+    font-family: 'Teko', sans-serif;
+}
+
+#services-part .services p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 30px;
+}
+
+#services-part .services a{
+    padding: 15px 20px;
+    background: #EA2E2F;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+#services-part .services a:hover{
+    background: #232150;
+}
+/*
+*******************************************************
+    services part end
+*******************************************************
+*/
+
+
+
+
+
+
+/*
+*******************************************************
+    process part start
+*******************************************************
+*/
+#process-part{
+    padding: 60px 0;
+}
+
+#process-part .img{
+    width: 100%;
+}
+
+#process-part .img img{
+    width: 100%;
+    height: 100%;
+}
+
+#process-part .section-title .who{
+    padding-bottom: 30px;
+}
+
+#process-part .section-title h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    color: #444;
+}
+
+#process-part .section-title p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#process-part .section-title ul{
+    padding-top: 15px;
+}
+
+#process-part .section-title ul li i{
+    color:  #1199ED;
+    font-size: 16px;
+}
+
+#process-part .section-title ul li span{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*
+*******************************************************
+    process part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+    work system part start
+*******************************************************
+*/
+#work-system-part{
+    padding: 60px 0;
+}
+
+#work-system-part .section-title{
+    text-align: center;
+}
+
+#work-system-part .section-title h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    color: #444;
+    padding-bottom: 30px;
+}
+
+#work-system-part .process{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+#work-system-part .process .pro{
+    width: 32%;
+    background: #F2F5F9;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: .4s;
+}
+
+#work-system-part .process .pro:hover{
+    background: #232150;
+    color: #fff;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+#work-system-part .process .pro i{
+    font-size: 40px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    background: #EA2E2F;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translate(-50%);
+    color: #fff;
+    background: #EA2E2F;
+    transition: .4s;
+}
+
+#work-system-part .process .pro:hover i{
+    font-size: 30px;
+}
+
+#work-system-part .process .pro h5{
+    margin-top: 50px;
+    color: #444;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#work-system-part .process .pro:hover h5{
+    color: #fff;
+}
+
+#work-system-part .process .pro p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#work-system-part .process-2{
+    margin-top: 20px;
+}
+
+#work-system-part .video{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#work-system-part .video .img{
+    width: 100%;
+    height: 100%;
+}
+
+#work-system-part .video .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#work-system-part .video .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#work-system-part .video .overlay a i{
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50%;
+    transition: .4s;
+    background: #232150;
+    color: #fff;
+}
+
+#work-system-part .video .overlay:hover i{
+    font-size: 80px;
+    background: #EA2E2F;
+}
+/*
+*******************************************************
+    work system part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+    work  part start
+*******************************************************
+*/
+#work-part{
+    padding: 60px 0;
+}
+
+#work-part .section-title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#work-part .section-title h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    color: #444;
+}
+
+#work-part .section-title p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+    width: 550px;
+    margin: 0 auto;
+}
+
+#work-part .tab-box{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#work-part .tab-box .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background: #EA2E2F;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    border: 0;
+}
+
+#work-part .tab-box .nav-pills .nav-link{
+    color: #232150;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    border: 1px solid #232150;
+    margin-left: 10px;
+}
+
+#work-part .project{
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#work-part .project .img{
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    transition: .4s;
+}
+
+#work-part .project .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#work-part .project .img .overlay{
+    width: 95%;
+    height: 95%;
+    background: rgb(35, 33, 80, .6);
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    transform: scale(0);
+    transition: .4s;
+    border-radius: 5px;
+    border: 5px solid rgb(234, 46, 47, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#work-part .project .img:hover .overlay{
+    transform: scale(1);
+}
+
+#work-part .project .img .overlay a{
+    margin: 0 5px;
+}
+
+#work-part .project .img .overlay a i{
+    font-size: 30px;
+    color: #fff;
+    background: #EA2E2F;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .4;
+    
+}
+
+#work-part .project .img .overlay a i:hover{
+    background: #232150;
+}
+
+#work-part .button{
+    text-align: center;
+    padding-top: 15px;
+}
+
+#work-part .button a{
+    padding: 15px 20px;
+    border: 3px solid #232150;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+    color: #444;
+    transition: .4s;
+    border-radius: 5px;
+}
+
+#work-part .button a:hover{
+    background: #232150;
+    border: 3px solid #232150;
+    color: #fff;
+}
+/*
+*******************************************************
+    work  part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+    clients part start
+*******************************************************
+*/
+#clients-part{
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background: #F2F5F9;
+}
+
+#clients-part .section-title{
+    text-align: center;
+}
+
+#clients-part .section-title h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    color: #444;
+    padding-bottom: 30px;
+}
+
+
+
+#clients-part .clients{
+    width: 19%;
+    margin: 0 10px;
+}
+
+#clients-part .clients .logo{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#clients-part .clients .logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.clients-slider{
+    position: relative;
+}
+
+.clients-slider .prev{
+    width: 40px;
+    height: 40px;
+    background: #0872B9;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+
+.clients-slider .next{
+    width: 40px;
+    height: 40px;
+    background: #0872B9;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+#clients-part .count{
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid #444;
+    text-align: center;
+    padding-top: 5px;
+    transition: .4s;
+    border-radius: 5px;
+}
+
+#clients-part .count:hover{
+    background: #232150;
+    color: #fff;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+#clients-part .count i{
+    font-size: 20px;
+}
+
+#clients-part .count h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #444;
+    font-family: 'Teko', sans-serif;
+    margin: 0;
+    transition: .4s;
+}
+
+#clients-part .count:hover h2{
+    color: #fff;
+}
+
+#clients-part .count span{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+}
+/*
+*******************************************************
+    clients part end
+*******************************************************
+*/
+
+
+
+
+
+/*
+*******************************************************
+    case study part start
+*******************************************************
+*/
+#case-part{
+    padding: 60px 0;
+}
+
+#case-part .section-title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#case-part .section-title h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    color: #444;
+}
+
+#case-part .section-title p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#case-part .case{
+    width: 100%;
+    border: 1px solid #f1f1f1;
+}
+
+#case-part .case .img{
+    width: 100%;
+}
+
+#case-part .case .img img{
+    width: 100%;
+    height: 100%;
+}
+
+#case-part .case .author{
+    padding: 0 20px;
+    padding-top: 10px;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#case-part .case .author ul li{
+    display: inline-block;
+}
+
+#case-part .case .author ul li i{
+    color: #232150;
+}
+
+#case-part .case .author ul li i span{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #232150;
+}
+
+#case-part .case .text-box{
+    padding: 15px 20px;
+}
+
+#case-part .case .text-box h5 a{
+    color: #444;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+}
+
+#case-part .case .text-box p{
+    font-size: 14px;
+    color: #444;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 0;
+
+}
+/*
+*******************************************************
+    case study part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+/*
+*******************************************************
+    concern part start
+*******************************************************
+*/
+#concern-part{
+    padding: 60px 0;
+    background: url(../images/concern-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#concern-part .title h2{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    color: #444;
+}
+
+
+
+#concern-part .logo{
+    width: 25%;
+    background: #fff;
+    margin: 0 5px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#concern-part .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+#concern-part .logo-slider-2{
+    margin-top: 10px;
+}
+/*
+*******************************************************
+    concern part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+    footer part start
+*******************************************************
+*/
+#footer-part{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background: url(../images/footer-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+#footer-part .items{
+    width: 100%;
+}
+
+#footer-part .items h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    padding-bottom: 15px;
+}
+
+#footer-part .items ul li{
+    display: inline-block;
+}
+
+#footer-part .items ul li i{
+    font-size: 20px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    background: #EA2E2F;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#footer-part .items ul .add{
+    width: 225px;
+    margin-left: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#footer-part .items ul .map{
+    width: 150px;
+    margin-left: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#footer-part .items ul{
+    position: relative;
+}
+
+#footer-part .items ul .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#footer-part .services h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    padding-bottom: 15px;
+}
+
+#footer-part .services ul li a{
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    transition: .4s;
+}
+
+#footer-part .services ul li a:hover{
+    color: #EA2E2F;
+}
+
+#footer-part .services form p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+}
+
+#footer-part .services form input{
+    width: 100%;
+    height: 40px;
+    margin: 5px 0;
+    border: 1px solid #444;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+#footer-part .services form button{
+    padding: 5px 10px;
+    background: #EA2E2F;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Teko', sans-serif;
+    border: 0;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+#footer-part .services form button:hover{
+    background: #232150;
+}
+/*
+*******************************************************
+    footer part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+    footer bottom part start
+*******************************************************
+*/
+#bottom-part{
+    border-top: 1px solid #444;
+    background: #232150;
+    padding-top: 5px;
+}
+
+#bottom-part .copy p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+}
+
+#bottom-part .copy p i{
+    color: #fff;
+}
+
+#bottom-part .copy p a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Teko', sans-serif;
+    transition: .4s;
+}
+
+#bottom-part .copy p a:hover{
+    color: #EA2E2F;
+}
+
+#bottom-part .social{
+    text-align: right;
+}
+
+#bottom-part .social a i{
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+    color: #232150;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+#bottom-part .social a i:hover{
+    background: #EA2E2F;
+    color: #fff;
+}
+/*
+*******************************************************
+    footer bottom part start
+*******************************************************
+*/
+
+
+/*
+*******************************************************
+    back top top button start
+*******************************************************
+*/
+.btop{
+  position: fixed;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    right: 20px;
+    bottom: 20px;
+    background: #EA2E2F;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+.btop:hover{
+    background:  #232150;
+    color: #fff;
+}
+/*
+*******************************************************
+    back top top button start
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+    service page css start
+*******************************************************
+*/
+
+
+/*
+*******************************************************
+    service banner css start
+*******************************************************
+*/
+#service-page{
+    width: 100%;
+    background: url(../images/services-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#service-page .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, .4);
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+#service-page .overlay .text-box{
+    background: #fff;
+    padding: 20px;
+}
+
+#service-page .overlay .text-box h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+}
+
+#service-page .overlay .text-box p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+#service-page .overlay .text-box a{
+    padding: 10px 15px;
+    background: #EA2E2F;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+#service-page .overlay .text-box a:hover{
+    background: #232150;
+}
+/*
+*******************************************************
+    service banner css end
+*******************************************************
+*/
+
+/*
+*******************************************************
+    services page css end
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+    images post production part start
+*******************************************************
+*/
+#services-1 .banner{
+    width: 100%;
+    background: url(../images/images-post-production-banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#services-1 .banner .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, .4);
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+#services-1 .banner .overlay .text-box{
+    background: #fff;
+    padding: 20px;
+}
+
+#services-1 .banner .overlay .text-box h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    color: #000;
+}
+
+#services-1 .banner .overlay .text-box p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+#services-1 .banner .overlay .text-box a{
+    padding: 10px 15px;
+    background: #EA2E2F;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+#services-1 .banner .overlay .text-box a:hover{
+    background: #232150;
+}
+
+
+#ipp-1{
+    padding-top: 60px;
+}
+
+#ipp-1 .card{
+    width: 100%;
+}
+
+
+.cndkbeforeafter-extra-small-text{
+    background: #EA2E2F !important;
+}
+
+#ipp-1 .text-box{
+    width: 100%;
+}
+
+#ipp-1 .text-box h3{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+}
+
+#ipp-1 .text-box p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    margin-bottom: 30px;
+    padding-top: 15px;
+}
+
+#ipp-1 .text-box a{
+    padding: 10px 15px;
+    background: #EA2E2F;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    font-size: 15px;
+    transition: .4s;
+}
+
+#ipp-1 .text-box a:hover{
+    background: #232150;
+}
+/*
+*******************************************************
+    images post production page part start
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+    graphics design page part start part start
+*******************************************************
+*/
+#services-1 .banner-2{
+    width: 100%;
+    background: url(../images/graphics-design-banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#servics-graphics{
+    padding-top: 60px;
+}
+
+#servics-graphics .items{
+    width: 100%;
+    background: #f1f1f1;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    transition: .4s; 
+    color: #444;
+}
+
+#servics-graphics .items:hover{
+    background: #232150;
+    color: #fff;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+#servics-graphics .items h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+}
+
+#servics-graphics .items p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+
+#servics-graphics .items a{
+    padding: 10px 15px;
+    background: #EA2E2F;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+
+
+#servics-graphics .items a:hover{
+    background: #fff;
+    color: #232150;
+}
+/*
+*******************************************************
+    graphics design page part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+    social media  page part end
+*******************************************************
+*/
+
+/*
+*******************************************************
+    social media  page part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+    motion graphics  page part start
+*******************************************************
+*/
+#services-1 .banner-3{
+    width: 100%;
+    background: url(../images/motion-graphics-banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*
+*******************************************************
+    motion graphics  page part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+/*
+*******************************************************
+    motion graphics  page part start
+*******************************************************
+*/
+#services-1 .banner-4{
+    width: 100%;
+    background: url(../images/social-marketing-banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*
+*******************************************************
+    motion graphics  page part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+   search engine marketing page part start
+*******************************************************
+*/
+#services-1 .banner-5{
+    width: 100%;
+    background: url(../images/search-engine%20-marketing.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*
+*******************************************************
+   search engine marketing page part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+   web & app page part start
+*******************************************************
+*/
+#services-1 .banner-6{
+    width: 100%;
+    background: url(../images/web-app-banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*
+*******************************************************
+   web & app page part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+/*
+*******************************************************
+   about page part start
+*******************************************************
+*/
+#services-1 .banner-7{
+    width: 100%;
+    background: url(../images/about%20page%20banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#history{
+    padding: 60px 0;
+}
+
+
+
+#history .box{
+    width: 100%;
+    height: 100%;
+    border: 10px solid #232150;
+    position: relative;
+}
+
+#history .img{
+    position: absolute;
+    top: 20px;
+    left: 35px;
+} 
+
+#history .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+#history .text-box{
+    padding: 0 20px;
+}
+
+#history .box-1{
+    padding: 130px 0;
+}
+
+#history .img img:hover{
+    width: 92%;
+    height: 92%;
+}
+
+#history .box-2{
+    padding: 100px 0;
+}
+
+#history .text-box h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #444;
+    font-family: 'Teko', sans-serif;
+}
+
+#history .text-box p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 15px;
+}
+
+
+
+#vision-part .vision-bg{
+    background: #f1f1f1;
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+
+#vision-part .box{
+    border: 5px solid #232150;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#vision-part .img{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+
+#vision-part .img img{
+    width: 100%;
+    height: 240px;
+    border-radius: 3px;
+}
+
+#vision-part .text-box h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+}
+
+#vision-part .text-box p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#board-part{
+    padding: 60px 0;
+}
+
+#board-part .title{
+    padding-bottom: 30px;
+}
+
+#board-part .title h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #444;
+    font-family: 'Teko', sans-serif;
+}
+
+#board-part .title p{
+    font-size: 20px;
+    color: #444;
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+}
+
+#board-part .board{
+    width: 100%;
+    background: #232150;
+    display: flex;
+    padding: 20px;
+    position: relative;
+    
+}
+
+#board-part .board .img{
+    width: 30%;
+}
+
+
+#board-part .board .img img{
+    width: 100%;
+    height: 180px;
+}
+
+#board-part .board .text{
+    width: 50%;
+    padding-left: 20px;
+}
+
+#board-part .board .text h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    padding-top: 30px;
+}
+
+#board-part .board .text h4{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+}
+
+#board-part .board .text p{
+    font-size: 16px;
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+}
+
+#board-part .items{
+    width: 100%;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+#board-part .board .triangle-down{
+    width: 40px;
+    height: 40px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 40px solid #232150;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#board-part .messsage{
+    width: 100%;
+    background: #f1f1f1;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+#board-part .messsage h2{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+}
+
+#board-part .messsage p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#companys{
+    padding: 60px 0;
+    background: url(../images/company-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+
+#companys .title h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+}
+
+#companys .title p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+#companys .logo{
+    height: 100px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+#companys .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+/*
+*******************************************************
+   about page part end
+*******************************************************
+*/
+
+
+
+
+
+
+/*
+*******************************************************
+   history  page part start
+*******************************************************
+*/
+#services-1 .banner-8{
+    background: url(../images/our-stoty%20banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*
+*******************************************************
+   history  page part end
+*******************************************************
+*/
+
+
+
+
+
+
+/*
+*******************************************************
+   who we are  page part start
+*******************************************************
+*/
+#services-1 .banner-9{
+    background: url(../images/who-we-are-banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*
+*******************************************************
+   who we are  page part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+   vision  page part start
+*******************************************************
+*/
+#services-1 .banner-10{
+    background: url(../images/vission-mission-banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#vision-page{
+    padding: 60px 0;
+}
+
+#vision-page .img-box{
+    width: 100%;
+    border: 10px solid #232150;
+    height: 300px;
+    position: relative;
+}
+
+#vision-page .img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 18px;
+    left: 35px;
+}
+
+#vision-page .img img{
+    width: 95%;
+    height: 100%;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+#vision-page .img img:hover{
+    width: 85%;
+    height: 87%;
+}
+
+#vision-page .text-box{
+    padding-left: 30px;
+}
+
+#vision-page .line-2{
+    padding-top: 40px;
+}
+/*
+*******************************************************
+   vision  page part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+   board of director  page part start
+*******************************************************
+*/
+#services-1 .banner-11{
+    background: url(../images/board-of%20director-banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*
+*******************************************************
+   board of director  page part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+/*
+*******************************************************
+   board of director  page part start
+*******************************************************
+*/
+#services-1 .banner-12{
+    background: url(../images/our-company-banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#company-page{
+    padding: 100px 0;
+}
+
+#company-page .title{
+    color: #444;
+}
+
+#company-page .title h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+}
+
+#company-page .title p{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+    padding-bottom: 30px;
+}
+
+#company-page .logo{
+    width: 100%;
+    height: 100px;
+    background: #f1f1f1;
+    margin-bottom: 30px;
+}
+
+#company-page .logo img{
+    width: 100%;
+    height: 100%;
+}
+/*
+*******************************************************
+   board of director  page part end
+*******************************************************
+*/
+
+
+
+
+
+
+/*
+*******************************************************
+   work  page part end
+*******************************************************
+*/
+#services-1 .banner-13{
+    background: url(../images/our-work-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*
+*******************************************************
+   work  page part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+ team page part end
+*******************************************************
+*/
+#services-1 .banner-14{
+    background: url(../images/our-team-banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#team-page{
+    padding: 60px 0;
+}
+
+#team-page .section-title{
+    text-align: center;
+}
+
+#team-page .section-title h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+}
+
+#team-page .section-title p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    width: 450px;
+    margin: 0 auto;
+}
+
+#team-page .item-member{
+    width: 100%;
+    background: #f1f1f1;
+    padding: 10px;
+    margin-top: 30px;
+    position: relative;
+}
+
+#team-page .item-member .img{
+    width: 100%;
+}
+
+#team-page .item-member .img img{
+    width: 100%;
+    height: 100%;
+}
+
+#team-page .item-member .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .6);
+    opacity: 0;
+    color: #fff;
+    transition: .4s
+}
+
+#team-page .item-member:hover{
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+#team-page .item-member:hover .overlay{
+    opacity: 1;
+    
+padding-top: 279px;
+}
+
+#team-page .item-member .overlay .text-box{
+    background:  #232150;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#team-page .item-member .overlay .text-box h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+}
+
+#team-page .item-member .overlay .text-box p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Teko', sans-serif;
+}
+
+#team-page .item-member .overlay .text-box a i{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #232150;
+}
+/*
+*******************************************************
+ team page part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+ blog page part end
+*******************************************************
+*/
+#services-1 .banner-15{
+    background: url(../images/blog-banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#blog-page{
+    padding: 60px 0;
+}
+
+#blog-page .blog{
+    width: 100%;
+}
+
+#blog-page .blog .img{
+    width: 100%;
+    height: 340px;
+    position: relative;
+    transition: .4s;
+}
+
+#blog-page .blog .img img{
+    width: 100%;
+    height: 100%;
+}
+
+#blog-page .blog .img .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(35, 33, 80, .9);
+    opacity: 0;
+    padding: 20px;
+}
+
+#blog-page .blog .img:hover .overlay{
+    opacity: 1;
+}
+
+#blog-page .blog .img .overlay .border{
+    border: 4px solid #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+}
+
+
+
+#blog-page .blog .img .overlay .border a i{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background: #fff;
+    text-align: center;
+    line-height: 40px;
+    transition: .4s;
+    color: #232150;
+}
+
+#blog-page .blog .img .overlay .border a i:hover{
+    background: #EA2E2F;
+    color: #fff;
+}
+
+#blog-page .blog .text-box{
+    border: 1px solid #f1f1f1;
+    border-top: 0;
+}
+
+#blog-page .blog .text-box .author{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#blog-page .blog .text-box .author ul li{
+    display: inline-block;
+}
+
+#blog-page .blog .text-box .author ul li a{
+    color: #444;
+}
+
+#blog-page .blog .text-box .author ul li a span{
+    padding-left: 5px;
+    color: #444;
+}
+
+#blog-page .blog .text-box .title{
+    padding: 0 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#blog-page .blog .text-box .title a h2{
+    color: #444;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+}
+
+#blog-page .blog .text-box .title a p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    padding-bottom: 20px;
+}
+
+#blog-page .blog .text-box .title .button{
+    display: flex;
+}
+
+#blog-page .blog .text-box .title .button .more .see{
+    padding: 10px 15px;
+    background: #EA2E2F;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+    transition: .4s;
+}
+
+#blog-page .blog .text-box .title .button .more .see:hover{
+    background: #232150;
+    color: #fff;
+}
+
+#blog-page .blog .text-box .title .button .social{
+    padding-left: 20px;
+}
+
+#blog-page .blog .text-box .title .button .social span{
+    font-size: 20px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+}
+
+#blog-page .blog .text-box .title .button .social a{
+    padding: 10px 15px;
+    background: #EA2E2F;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+    margin-right: 5px;
+}
+
+#blog-page .blog .text-box .title .button .social a:hover{
+    border: 1px solid #232150;
+    background: transparent;
+    color: #232150;
+}
+
+#blog-page .b-2{
+    margin-top: 30px;
+}
+
+#blog-page .page-button{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#blog-page .page-button ul li{
+    display: inline-block;
+}
+
+#blog-page .page-button ul li a i{
+    width: 40px;
+    height: 40px;
+    background: red;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#blog-page .page-button ul li a .number{
+    background: gray;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 10px;
+}
+/*
+*******************************************************
+ blog page part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+ pricing page part start
+*******************************************************
+*/
+#services-1 .banner-16{
+    background: url(../images/pricing-banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#pricing{
+    padding-top: 60px;
+    padding-bottom: 300px;
+}
+
+#pricing .price{
+    width: 100%;
+    padding: 30px 20px;
+    border: 2px solid #232150;
+}
+/*
+*******************************************************
+ pricing page part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+ case-study page part end
+*******************************************************
+*/
+#services-1 .banner-17{
+    background: url(../images/case-study-banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*
+*******************************************************
+ case-study page part end
+*******************************************************
+*/
+
+
+
+
+
+
+
+
+/*
+*******************************************************
+ contact info page part start
+*******************************************************
+*/
+#services-1 .banner-18{
+    background: url(../images/info-banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#info{
+    padding: 60px 0;
+}
+
+#info .title{
+    text-align: center;
+}
+
+#info .title h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    color: #444;
+}
+
+#info .title p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #444;
+    font-family: 'Teko', sans-serif;
+    padding-bottom: 30px;
+}
+
+#info .items{
+    width: 100%;
+    padding: 30px 20px;
+    background: #f1f1f1;
+    color: #444;
+    text-align: center;
+    border-radius: 5px;
+    transition: .4s;
+    margin-bottom: 30px;
+}
+
+#info .items:hover{
+    background: #232150;
+    color: #fff;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+#info .items i{
+    font-size: 40px;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #EA2E2F;
+    border-radius: 50%;
+}
+
+#info .items:hover i{
+    color: #fff;
+}
+
+#info .it-2{
+    padding: 30px 100px;
+}
+
+#info .items h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+}
+
+#info .items p{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+}
+
+#info .level form input{
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    padding-left: 10px;
+    border: 1px solid #444;
+    color: #444;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+#info .level form textarea{
+    width: 100%;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 3px;
+    border: 1px solid #444;
+}
+
+#info .level form button{
+    padding: 10px 15px;
+    background: #EA2E2F;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    transition: .4s;
+}
+
+#info .level form button:hover{
+    background: #232150;
+}
+
+#info .map{
+    width: 100%;
+}
+
+/*
+*******************************************************
+ contact info page part  part end
+*******************************************************
+*/
